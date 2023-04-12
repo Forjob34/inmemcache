@@ -16,9 +16,9 @@ A simple, thread-safe, in-memory cache implementation in Go.
 
 To use inmemcache, simply import the package in your Go project:
 
-\```bash
-go get github.com/username/inmemcache
-\```
+```bash
+go get github.com/Forjob34/inmemcache
+```
 
 Replace `username` with your GitHub username if you have forked this repository.
 
@@ -28,15 +28,15 @@ Replace `username` with your GitHub username if you have forked this repository.
 
 First, import the `inmemcache` package in your Go project:
 
-\```go
-import "github.com/username/inmemcache"
-\```
+```go
+import "github.com/Forjob34/inmemcache"
+```
 
 To create a new cache, use the `NewCache()` function:
 
-\```go
+```go
 cache := inmemcache.NewCache()
-\```
+```
 
 ### Setting a Value
 
